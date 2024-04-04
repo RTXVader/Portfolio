@@ -5,7 +5,7 @@ export default [
         stack: ['React', 'Tailwind','Vite'],
         link:'https://stellar-mermaid-14a9ac.netlify.app',
         description:'This website serves as a comprehensive showcase of my professional projects, employing a tech stack comprising JavaScript, TailwindCSS, React, and Vite for its development.',
-        FE_Repo:"",
+        FE_Repo:"https://github.com/RTXVader/Portfolio",
         BE_Repo:""
     },
     {
@@ -15,7 +15,7 @@ export default [
         link:'https://www.youtube.com/watch?v=KJSyEB9HWns&feature=youtu.be',
         description:'CodeGather is a platform designed exclusively for software developers, offering the opportunity to create and participate in events. It serves as a solution for developers living outside major tech cities such as Manchester and London. In this group project, my primary role centered on backend development, leveraging JavaScript and MongoDB, and following Test-Driven Development (TDD) practices. Additionally, I implemented nodemailer to enhance the functionality of the platform.',
         FE_Repo:"",
-        BE_Repo:""
+        BE_Repo:"https://github.com/sophocles99/codegather-backend"
     },
     {
         title: 'NC News',
@@ -25,5 +25,14 @@ export default [
         description:'News Site is a dynamic web application highlighting articles on cooking, food, and coding. This solo project, completed in two weeks, was crafted using JavaScript with a strong emphasis on Test-Driven Development (TDD). The tech stack includes JavaScript, PostgreSQL, Node.js, Express, Jest, React.js, HTML, and CSS.',
         FE_Repo:"https://github.com/RTXVader/ncnews-display-articles/tree/main",
         BE_Repo:"https://github.com/RTXVader/nc-news"
+    },
+    {
+        title: 'Weather App',
+        imgURL: '/assets/Untitled.png',
+        stack: ['Swift', 'SwiftUI'],
+        link:'https://github.com/RTXVader/WeatherApp/tree/main/Weather%20App',
+        description:"The Weather App is a dynamic and visually appealing iOS application designed to provide users with current weather information in an intuitive and engaging way. Developed using SwiftUI, Apple's innovative framework for building user interfaces across all Apple platforms, this app offers a seamless experience on iPhone, iPad, and Mac.",
+        FE_Repo:"https://github.com/RTXVader/WeatherApp/tree/main/Weather%20App",
+        BE_Repo:""
     },
 ]

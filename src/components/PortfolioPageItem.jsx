@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGithub } from "react-icons/fa";
 
 function PortfolioPageItem({
   title,
@@ -40,13 +41,25 @@ function PortfolioPageItem({
         </p>
         <p>{description}</p>
         {FE_Repo && (
-          <a href={FE_Repo} target="_blank" rel="noopener noreferrer">
+          <a
+            href={FE_Repo}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300"
+          >
+            <FaGithub />
             Frontend Repo
           </a>
         )}
 
         {BE_Repo && (
-          <a href={BE_Repo} target="_blank" rel="noopener noreferrer">
+          <a
+            href={BE_Repo}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300"
+          >
+            <FaGithub />
             Backend Repo
           </a>
         )}
