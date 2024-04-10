@@ -35,4 +35,22 @@ export default [
         FE_Repo:"https://github.com/RTXVader/WeatherApp/tree/main/Weather%20App",
         BE_Repo:""
     },
+    {
+        title: 'Pokedex',
+        imgURL: '/assets/Screenshot 2024-04-09 at 10.42.51.png',
+        stack: ['Swift', 'SwiftUI'],
+        link:'https://github.com/RTXVader/Pokedex/tree/main/Pokedex',
+        description:"The Pokedex app is a comprehensive tool for Pokemon trainers and enthusiasts to explore and learn about different Pokemon species. Developed using SwiftUI and integrating with the PokeAPI, this app provides users with access to a vast database of Pokemon, including detailed information such as height, weight, and unique characteristics.",
+        FE_Repo:"https://github.com/RTXVader/Pokedex/tree/main/Pokedex",
+        BE_Repo:""
+    },
+    {
+        title: 'Pokemon Finder',
+        imgURL: '/assets/Screenshot 2024-04-10 at 15.50.33.png',
+        stack: ['Python'],
+        link:'https://github.com/RTXVader/Pokedex-GUI/blob/main/main.py',
+        description:"The Pokémon Finder GUI is a Python application that allows users to search for information about Pokémon using a graphical user interface (GUI). Built with Python's Tkinter library, this project provides a visually appealing and intuitive interface for users to explore details about various Pokémon.",
+        FE_Repo:"https://github.com/RTXVader/Pokedex-GUI/blob/main/main.py",
+        BE_Repo:""
+    },
 ]
