@@ -53,4 +53,16 @@ export default [
         FE_Repo:"https://github.com/RTXVader/Pokedex-GUI/blob/main/main.py",
         BE_Repo:""
     },
+    {
+        title: 'Pokemon Finder',
+        imgURL: '/assets/Screenshot 2024-04-10 at 15.50.33.png',
+        stack: ['Python'],
+        link:'https://github.com/RTXVader/Pokedex-GUI/blob/main/main.py',
+        description:"The Pokémon Finder GUI is a Python application that allows users to search for information about Pokémon using a graphical user interface (GUI). Built with Python's Tkinter library, this project provides a visually appealing and intuitive interface for users to explore details about various Pokémon.",
+        FE_Repo:"https://github.com/RTXVader/Pokedex-GUI/blob/main/main.py",
+        BE_Repo:""
+    },
+    {
+
+    },
 ]
