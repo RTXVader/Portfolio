@@ -62,7 +62,4 @@ export default [
         FE_Repo:"https://github.com/RTXVader/Pokedex-GUI/blob/main/main.py",
         BE_Repo:""
     },
-    {
-
-    },
 ]
